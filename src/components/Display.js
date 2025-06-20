@@ -8,11 +8,23 @@ function Display(){
 
     return(
         <div className='backGroundBox'>
-            <span className='flightCount'>{flights} flights</span>
-            <span className='flightDist'>{dist} km</span>
-            <span className='flightHours'>{hour} H {min} M</span>
+            <div className="flightBox flightCount">
+                <div className="value">{flights}</div>
+                <div className="label">flights</div>
+            </div>
+
+            <div className="flightBox flightDist">
+                <div className="value">{dist}</div>
+                <div className="label">km</div>
+            </div>
+
+            <div className="flightBox flightHours">
+                <div className="value">{hour}<span className="unit"> H</span></div>
+                <div className="value">{min}<span className="unit"> M</span></div>
+            </div>
+
         </div>
     );
 }
 
-export default Display
+export default Display;

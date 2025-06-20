@@ -1,7 +1,7 @@
 import logo from '../assets/user.png';
 import './Bar.css';
 
-function Bar() {
+function Bar(){
   const username = "LEE"
   return (
     <div className="barBackGround">

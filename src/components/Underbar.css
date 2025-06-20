@@ -1,0 +1,9 @@
+.Underbar{
+    display: flex;
+    justify-content: center; /* 우측 정렬 */
+    align-items: baseline;
+    height: 48px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    background-color: #112D4E;
+}
