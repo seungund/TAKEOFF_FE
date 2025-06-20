@@ -22,8 +22,8 @@ const MyGlobe = () => {
     <div className="globe-container">
       <Globe
         ref={globeEl}
-        globeImageUrl="https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74518/world.topo.bathy.200412.3x5400x2700.jpg"
-        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+        backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
         pointsData={places}
         pointLat={(d) => d.lat}
         pointLng={(d) => d.lng}
