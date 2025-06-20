@@ -8,8 +8,8 @@
 
 ## 메인 화면
 
-![1750419306223](image/README/1750419306223.png)
+![1750419306223](src/assets/readmemain.png)
 
 ## 스택
 
-`<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">`
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
